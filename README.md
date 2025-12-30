@@ -1,106 +1,106 @@
-# BarberFlow
+💈 BarberFlow
 
-**Plataforma moderna de gestão para barbearias**, focada em organização, automação e escalabilidade.
+Plataforma inteligente de gestão para barbearias modernas
 
-O BarberFlow foi desenvolvido para centralizar as principais operações de uma barbearia em um único sistema, reduzindo trabalho manual, erros operacionais e dependência de múltiplas ferramentas desconectadas.
+O BarberFlow é uma solução completa para gestão operacional de barbearias, unificando agenda, profissionais, serviços, finanças e automações em uma arquitetura moderna, segura e escalável.
 
----
+Projetado para operar em ambiente real de produção, o BarberFlow resolve problemas práticos do dia a dia e abre caminho para evolução contínua do negócio.
 
-## 🧠 Visão do Produto
+🎯 O problema que o BarberFlow resolve
 
-Barbearias modernas precisam de mais do que uma agenda online.  
-Elas precisam de **controle**, **visibilidade** e **processos claros**.
+A maioria das barbearias enfrenta hoje:
 
-O BarberFlow nasce com essa proposta:  
-> organizar o negócio antes de tentar escalá-lo.
+📅 Agendas manuais ou fragmentadas
 
-A plataforma foi pensada desde o início para suportar crescimento, múltiplos profissionais, diferentes serviços e integrações futuras com sistemas externos.
+👥 Falta de controle claro sobre profissionais e serviços
 
----
+💰 Baixa visibilidade financeira
 
-## 🚀 Principais Capacidades
+🔁 Processos repetitivos sem automação
 
-- 📅 **Agendamento inteligente**
-- 👥 **Gestão de profissionais**
-- ✂️ **Serviços e pacotes configuráveis**
-- 🏪 **Estrutura multi-barbearia (multi-tenant)**
-- 🔐 **Autenticação e controle de acesso**
-- ⚙️ **API REST pronta para integrações**
-- 🤖 **Automação de processos (via n8n)**
+📉 Dificuldade de escalar operação com organização
 
----
+O BarberFlow centraliza essas frentes em um único sistema, preparado para crescer junto com o negócio.
 
-## 🧩 Arquitetura (Visão Geral)
+🧩 O que o BarberFlow entrega
+Funcionalidades principais
 
-O BarberFlow utiliza uma arquitetura moderna, modular e orientada a serviços.
+📅 Gestão de agenda
 
-- **Backend**: Node.js + Express  
-- **Banco de Dados**: PostgreSQL (Supabase)  
-- **Infraestrutura**: Docker + Traefik  
-- **Automação**: n8n  
-- **Deploy**: VPS com proxy reverso e isolamento por containers  
+👥 Controle de profissionais
 
-Essa abordagem garante:
-- Facilidade de manutenção
-- Isolamento de responsabilidades
-- Evolução sem reescrever o sistema
+✂️ Serviços e pacotes configuráveis
 
----
+🏢 Suporte multi-barbearia (multi-tenant)
 
-## 🔐 Segurança e Boas Práticas
+🔐 Autenticação e controle de acesso
 
-- Uso de variáveis de ambiente
-- Separação clara entre ambientes (local / produção)
-- Tokens e credenciais nunca versionados
-- Controle de acesso por contexto (barbearia)
+🌐 API REST para integrações
 
-O repositório público **não contém dados sensíveis**.
+⚙️ Base pronta para automações (n8n)
 
----
+🛠️ Visão técnica (alto nível)
 
-## 📈 Escalabilidade
+O BarberFlow foi construído com foco em robustez, manutenibilidade e escala.
 
-O projeto foi construído para crescer de forma controlada:
+Stack principal
 
-- Novas barbearias sem duplicar código
-- Integração futura com pagamentos, relatórios e BI
-- Possibilidade de novos frontends consumindo a mesma API
-- Automatizações personalizadas por negócio
+Backend: Node.js + Express
 
----
+Banco de dados: PostgreSQL (Supabase)
 
-## 🧑‍💼 Público-Alvo
+Infraestrutura: Docker + Traefik
 
-- Barbearias que desejam profissionalizar a gestão
-- Estúdios que operam com múltiplos profissionais
-- Negócios que precisam de controle operacional real
-- Projetos que exigem integração com sistemas externos
+Autenticação e segurança: JWT + RLS
 
----
+Automação: Integração com n8n
 
-## 📄 Material Institucional
+Arquitetura
 
-Uma apresentação executiva com visão de produto, arquitetura e proposta de valor está disponível em formato PDF.
+Separação clara entre backend, infraestrutura e automações
 
-📄 **BarberFlow — Apresentação Executiva**
+Containers isolados e orquestrados via Docker
 
----
+Proxy reverso com Traefik (compatível com Cloudflare)
 
-## 📌 Status do Projeto
+Configuração baseada em variáveis de ambiente
 
-O BarberFlow encontra-se em **fase funcional**, com backend estável, infraestrutura validada e fluxos reais de operação já testados.
+Pronto para ambientes multi-instância
 
-Evoluções futuras incluem:
-- Expansão do módulo financeiro
-- Dashboards gerenciais
-- Integração com pagamentos
-- Relatórios avançados
+🔐 Segurança e boas práticas
 
----
+Nenhuma credencial sensível versionada
 
-## 📬 Contato
+Uso de variáveis de ambiente externas
 
-Para demonstrações, parcerias ou informações adicionais:
+Chaves de serviço restritas ao backend
 
-**Sérgio Braz**  
-Projeto BarberFlow
+Controle por barbearia_id (multi-tenant)
+
+Estrutura compatível com produção
+
+📄 Material institucional
+
+📥 Apresentação Executiva (PDF)
+Uma visão visual e estratégica do BarberFlow, com proposta de valor, benefícios e arquitetura.
+
+➡️ Download do PDF – Apresentação Executiva
+
+🚧 Status do projeto
+
+O BarberFlow está em fase funcional e operacional, com:
+
+Backend rodando em produção
+
+Infraestrutura validada em VPS
+
+Integrações reais com banco de dados
+
+Pronto para demonstrações e evolução incremental
+
+👤 Autor
+
+Sérgio Braz
+Automação • Sistemas • Integrações Inteligentes
+
+Projeto desenvolvido com foco em soluções reais, escaláveis e alinhadas às necessidades do negócio.
