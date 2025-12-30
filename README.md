@@ -1,6 +1,5 @@
 # barberflow-public
 
-BarberFlow
 BarberFlow é uma plataforma profissional de gestão para barbearias, desenvolvida para centralizar
 agenda, profissionais, serviços, pacotes e controle operacional em um único sistema moderno e
 seguro.
